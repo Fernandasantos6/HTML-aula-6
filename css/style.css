@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: 'Oswald', sans-serif;
+}
+.carousel-item {
+    max-height: 33vh;
+    overflow-y: hidden;
+}
+.carousel-indcators li {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: red;
+}
+li[data-target="carousel"]
