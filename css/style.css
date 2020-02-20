@@ -6,7 +6,7 @@
     font-family: 'Oswald', sans-serif;
 }
 .carousel-item {
-    max-height: 33vh;
+    max-height: 83vh;
     overflow-y: hidden;
 }
 .carousel-indcators li {
@@ -15,4 +15,6 @@
     border-radius: 50%;
     background-color: red;
 }
-li[data-target="carousel"]
+li[data-target="#carouselExampleCaptions"]:not(.active) {
+    background-color: rgb(255, 122, 13);
+}
